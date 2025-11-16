@@ -2,11 +2,19 @@ import React from "react";
 import { Link, NavLink } from "react-router";
 
 const Navbar = () => {
-    const links = <>
-        <Link to='/'><li className="m-2">Home</li></Link>
-      <Link to='/about'><li className="m-2">about</li></Link>
-      <Link to='/readList'><li className="m-2">ReadList</li></Link>
+  const links = (
+    <>
+      <Link to="/">
+        <li className="m-2">Home</li>
+      </Link>
+      <Link to="/about">
+        <li className="m-2">about</li>
+      </Link>
+      <Link to="/readList">
+        <li className="m-2">ReadList</li>
+      </Link>
     </>
+  );
   return (
     <div className="navbar bg-base-100 shadow-sm">
       <div className="navbar-start">
@@ -38,9 +46,7 @@ const Navbar = () => {
         <a className="btn btn-ghost text-xl">Boi POka</a>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1">
-        {links}
-        </ul>
+        <ul className="menu menu-horizontal px-1">{links}</ul>
       </div>
       <div className="navbar-end">
         <a className="btn">Button</a>
