@@ -1,12 +1,27 @@
-# React + Vite
+# Boi Poka
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Boi Poka** is a modern online book store application built with React. Users can browse books displayed in card layouts, add books to their wishlist, maintain a reading list, and navigate smoothly across different pages using React Router.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- **Book Cards Display**: Browse books with visually appealing card designs showing book details.
+- **Read List**: Add books you want to read and manage your personal reading list.
+- **Wishlist**: Save your favorite books to the wishlist for future reference.
+- **Routing**: Seamless navigation using React Router for multiple pages (Home, ReadList, Wishlist, Book Details).
+- **Responsive Design**: Works on desktop, tablet, and mobile screens.
+- **Search and Filter** *(optional future feature)*: Quickly find books by title, author, or category.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Technology Stack
+
+- **Frontend**: React, JavaScript
+- **Routing**: React Router
+- **Styling**: Tailwind CSS
+- **State Management**: React Hooks (`useState`, `useEffect`, etc.)
+- **Optional Libraries**: React Icons, Axios (for API calls if any)
+
+---
+
